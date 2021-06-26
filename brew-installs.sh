@@ -44,7 +44,10 @@ brew install imagemagick --with-webp
 brew install ssh-copy-id
 brew install tmux
 brew install tree
-brew install zsh
+
+# Install common developer dependencies
+brew install golang
+brew install postgres
 
 # Remove outdated versions from the cellar
 brew cleanup

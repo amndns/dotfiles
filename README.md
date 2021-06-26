@@ -13,3 +13,4 @@
 </p>
 
 > Adel's dotfiles... Work in progress...
+> Do not forget to change the `[changeme]` values

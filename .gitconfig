@@ -1,6 +1,6 @@
 [user]
 	name = Adel Mandanas
-	email = ...
+	email = [changeme]
 [alias]
 	ch = checkout
 	br = branch
@@ -23,3 +23,7 @@
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
+[url "git@gitlab.com:"]
+	insteadOf = https://gitlab.com/
+[url "git@github.com:"]
+	insteadOf = https://github.com/
